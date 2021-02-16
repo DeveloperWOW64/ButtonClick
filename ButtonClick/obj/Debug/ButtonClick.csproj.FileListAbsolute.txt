@@ -1,0 +1,13 @@
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/bin/Debug/ButtonClick.exe
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/bin/Debug/ButtonClick.pdb
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/obj/Debug/actool/_PartialAppManifest.items
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/obj/Debug/actool/_BundleResourceWithLogicalName.items
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/obj/Debug/ibtool-manifests/Main.storyboardc
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/obj/Debug/ibtool/Main.storyboardc/MainMenu.nib
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/obj/Debug/ibtool/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/obj/Debug/ibtool/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/obj/Debug/ibtool/Main.storyboardc/Info.plist
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/obj/Debug/ButtonClick.csprojAssemblyReference.cache
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/obj/Debug/ButtonClick.csproj.CoreCompileInputs.cache
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/obj/Debug/ButtonClick.exe
+/Volumes/Code/Repositories/ButtonClick/ButtonClick/obj/Debug/ButtonClick.pdb
