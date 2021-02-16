@@ -9,4 +9,6 @@
 
 @implementation ViewController
 
+- (IBAction)ClickedButton:(id)sender {
+}
 @end

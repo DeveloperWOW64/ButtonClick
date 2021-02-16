@@ -11,5 +11,7 @@
 
 @interface ViewController : NSViewController {
 }
+@property (assign) IBOutlet NSTextField *ClickedLabel;
+- (IBAction)ClickedButton:(id)sender;
 
 @end
