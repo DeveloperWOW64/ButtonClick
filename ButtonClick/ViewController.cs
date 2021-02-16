@@ -7,6 +7,8 @@ namespace ButtonClick
 {
     public partial class ViewController : NSViewController
     {
+        private int numberOfTimesClicked = 0;
+
         public ViewController(IntPtr handle) : base(handle)
         {
         }
@@ -15,9 +17,15 @@ namespace ButtonClick
         {
             base.ViewDidLoad();
 
-            // Do any additional setup after loading the view.
-        }
+            // Set the initial value for the label
+            ClickedLabel.StringValue = "Button has not been clicked yet. Please click it.";
 
+        }
+        partial void ClickedButton(Foundation.NSObject sender)
+        {
+            // Update counter and label
+            ClickedLabel.StringValue = string.Format("The button has been clicked {0} time{1}. Click it again.", ++numberOfTimesClicked, (numberOfTimesClicked < 2) ? "" : "s.");
+        }
         public override NSObject RepresentedObject
         {
             get

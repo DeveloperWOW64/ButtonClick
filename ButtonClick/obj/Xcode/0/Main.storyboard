@@ -714,6 +714,7 @@
                                 <rect key="frame" x="13" y="223" width="86" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="72" id="iAH-VM-qB0"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="jAg-bS-zKU"/>
                                     <constraint firstAttribute="height" constant="20" id="p8w-Dp-L5t"/>
                                 </constraints>
                                 <buttonCell key="cell" type="push" title="Click Me" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dMR-ZB-pi9">
