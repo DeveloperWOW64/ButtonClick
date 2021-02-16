@@ -710,17 +710,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2kT-OT-fv6">
-                                <rect key="frame" x="32" y="193" width="86" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2kT-OT-fv6">
+                                <rect key="frame" x="13" y="223" width="86" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="iAH-VM-qB0"/>
+                                    <constraint firstAttribute="height" constant="20" id="p8w-Dp-L5t"/>
+                                </constraints>
                                 <buttonCell key="cell" type="push" title="Click Me" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dMR-ZB-pi9">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZF4-GP-wOS">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZF4-GP-wOS">
                                 <rect key="frame" x="132" y="204" width="330" height="16"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="AHW-lL-cwX"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="Hop-sD-D23"/>
+                                </constraints>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="nP3-XS-vgG">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -728,6 +734,16 @@
                                 </textFieldCell>
                             </textField>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="2kT-OT-fv6" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="1sn-Mk-yHo"/>
+                            <constraint firstAttribute="trailing" secondItem="ZF4-GP-wOS" secondAttribute="trailing" constant="20" symbolic="YES" id="3Jr-kb-pLj"/>
+                            <constraint firstItem="2kT-OT-fv6" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="4qu-hJ-Jwy"/>
+                            <constraint firstItem="ZF4-GP-wOS" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="134" id="WRZ-OQ-hGw"/>
+                            <constraint firstItem="ZF4-GP-wOS" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="134" id="YfU-rV-LIf"/>
+                            <constraint firstItem="ZF4-GP-wOS" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="50" id="e2S-eH-sD8"/>
+                            <constraint firstItem="ZF4-GP-wOS" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="50" id="ifh-X3-gVM"/>
+                            <constraint firstAttribute="trailing" secondItem="ZF4-GP-wOS" secondAttribute="trailing" constant="20" symbolic="YES" id="q8M-1A-OdX"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
