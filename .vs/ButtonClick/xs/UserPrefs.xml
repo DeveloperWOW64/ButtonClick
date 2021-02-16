@@ -1,16 +1,19 @@
 ﻿<Properties StartupConfiguration="{BCAFE0B1-01CE-40EC-8B27-5B4E59BF3497}|Default">
   <MonoDevelop.Ide.ItemProperties.ButtonClick PreferredExecutionTarget="Test1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ButtonClick/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ButtonClick/ViewController.designer.cs">
     <Files>
-      <File FileName="ButtonClick/AppDelegate.cs" Line="4" Column="13" />
+      <File FileName="ButtonClick/AppDelegate.cs" Line="23" Column="2" />
       <File FileName="ButtonClick/Info.plist" />
+      <File FileName="ButtonClick/ViewController.designer.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ButtonClick" expanded="True">
             <Node name="ButtonClick" expanded="True">
-              <Node name="AppDelegate.cs" selected="True" />
+              <Node name="ViewController.cs" expanded="True">
+                <Node name="ViewController.designer.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
