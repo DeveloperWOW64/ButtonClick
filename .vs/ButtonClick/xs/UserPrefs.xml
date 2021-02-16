@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{BCAFE0B1-01CE-40EC-8B27-5B4E59BF3497}|Default">
   <MonoDevelop.Ide.ItemProperties.ButtonClick PreferredExecutionTarget="Test1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ButtonClick/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ButtonClick/AppDelegate.cs">
     <Files>
       <File FileName="ButtonClick/AppDelegate.cs" Line="1" Column="1" />
       <File FileName="ButtonClick/Info.plist" />
@@ -10,7 +10,7 @@
         <State name="__root__">
           <Node name="ButtonClick" expanded="True">
             <Node name="ButtonClick" expanded="True">
-              <Node name="Info.plist" selected="True" />
+              <Node name="AppDelegate.cs" selected="True" />
             </Node>
           </Node>
         </State>
