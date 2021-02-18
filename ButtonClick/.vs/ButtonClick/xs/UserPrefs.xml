@@ -5,9 +5,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ButtonClick" expanded="True">
-            <Node name="ButtonClick" expanded="True">
-              <Node name="Assets.xcassets" selected="True" />
-            </Node>
+            <Node name="ButtonClick" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>

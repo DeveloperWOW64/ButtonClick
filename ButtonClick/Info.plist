@@ -7,7 +7,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.devwow64.ButtonClick</string>
 	<key>CFBundleShortVersionString</key>
-	<string>Alpha</string>
+	<string>Beta</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.14</string>
 	<key>CFBundleDevelopmentRegion</key>
