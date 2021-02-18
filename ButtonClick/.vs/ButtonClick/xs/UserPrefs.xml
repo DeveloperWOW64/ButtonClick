@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{BCAFE0B1-01CE-40EC-8B27-5B4E59BF3497}|Default">
+  <MonoDevelop.Ide.ItemProperties.ButtonClick PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ButtonClick" expanded="True">
+            <Node name="ButtonClick" expanded="True">
+              <Node name="Assets.xcassets" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
